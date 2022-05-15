@@ -16,8 +16,8 @@ function Product({ currentItem, addItem }) {
                             <h1 className="text-uppercase fs-4 fw-bold">{currentItem.title}</h1>
                             <h2 className="text-success fs-1 fw-bold mt-4">{currentItem.price} TND</h2>
                             <p className="mt-4 text-muted">{currentItem.desc}</p>
-                            <button className="btn btn-outline-success text-decoration-none mt-4" onClick={() => addItem(currentItem.id)}><i className="fa fa-cart-plus me-2 py-3 fs-5"></i>Add To Cart</button>
-                            <Link to="/cart" className="btn btn-success text-decoration-none ms-2 mt-4"><i className="fa fa-shopping-cart me-2 py-3 fs-5"></i>Go To Cart</Link>
+                            <button className="btn btn-outline-success text-decoration-none my-4" onClick={() => addItem(currentItem.id)}><i className="fa fa-cart-plus me-2 fs-5"></i>Add To Cart</button>
+                            <Link to="/cart" className="btn btn-success text-decoration-none ms-2 my-4"><i className="fa fa-shopping-cart me-2 fs-5"></i>Go To Cart</Link>
                         </div>
                     </div>
                 </div>
