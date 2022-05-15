@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e920038.css",
+    "main.js": "/static/js/main.30f00e07.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/boca.png": "/static/media/boca.b85c47c8ad7e27b268a7.png",
+    "static/media/barcelona.png": "/static/media/barcelona.e194b3f870440ed85cff.png",
+    "static/media/manchester.png": "/static/media/manchester.57bae8620ca36d511d58.png",
+    "static/media/bayern.png": "/static/media/bayern.1eaae10836ca6b3c46be.png",
+    "static/media/home.png": "/static/media/home.9f7d02d4b9bdd7699ecb.png",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/real.png": "/static/media/real.e371cba2dab3d2e76d2c.png",
+    "static/media/gray.png": "/static/media/gray.f553ab015bbcafafc5e7.png",
+    "static/media/red.png": "/static/media/red.56876561ae055ecbe392.png",
+    "static/media/blue.png": "/static/media/blue.14598e152ed9f66e1c88.png",
+    "static/media/river.png": "/static/media/river.a62490530715bc1b819a.png",
+    "static/media/orange.png": "/static/media/orange.2e15ae737708fcda90e1.png",
+    "static/media/jogging.png": "/static/media/jogging.b215813955077a7d6ac1.png",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/puremotion.png": "/static/media/puremotion.93eb13915fb426643a48.png",
+    "static/media/superstar.png": "/static/media/superstar.4fc7c6b0f228a4fd8250.png",
+    "static/media/nmd.png": "/static/media/nmd.9174981b8d492fbe4ae5.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/black.png": "/static/media/black.04cdf981ae038d40210c.png",
+    "index.html": "/index.html",
+    "main.7e920038.css.map": "/static/css/main.7e920038.css.map",
+    "main.30f00e07.js.map": "/static/js/main.30f00e07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e920038.css",
+    "static/js/main.30f00e07.js"
+  ]
+}
