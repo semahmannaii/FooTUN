@@ -1,10 +1,33 @@
 import { useState, useEffect } from "react"
 import CartItem from "../components/CartItem"
 import { connect } from "react-redux"
+import { useNavigate } from "react-router-dom"
+import { ToastContainer, toast } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
 
 function Cart({ cart }) {
   const [totalItems, setTotalItems] = useState(0)
   const [totalPrice, setTotalPrice] = useState(0)
+
+  const navigate = useNavigate()
+
+  const pay = (e) => {
+    e.preventDefault()
+
+    toast.success('Thank You For Your Purchase!', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      });
+
+    setTimeout(function () {
+        navigate('/products')
+    }, 3000)
+  }
 
   useEffect(() => {
     let items = 0
@@ -40,7 +63,8 @@ function Cart({ cart }) {
           <span>Total: ({totalItems} items )</span>
           <span className="ms-5">{totalPrice} TND</span>
         </div>
-        <button className="btn btn-success text-decoration-none mt-4">Procced to checkout</button>
+        <button className="btn btn-success text-decoration-none mt-4 w-25" onClick={pay}>Pay</button>
+        <ToastContainer />
       </div>
     </div>
   )
