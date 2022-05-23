@@ -27,6 +27,11 @@ function Cart({ cart }) {
     setTimeout(function () {
         navigate('/products')
     }, 3000)
+    
+    setTimeout(function () {
+      window.location.reload()
+  }, 5000)
+    
   }
 
   useEffect(() => {
