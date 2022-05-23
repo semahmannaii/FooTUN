@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e920038.css",
-    "main.js": "/static/js/main.30f00e07.js",
+    "main.css": "/static/css/main.72002b16.css",
+    "main.js": "/static/js/main.7f3ea247.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/boca.png": "/static/media/boca.b85c47c8ad7e27b268a7.png",
     "static/media/barcelona.png": "/static/media/barcelona.e194b3f870440ed85cff.png",
@@ -24,11 +24,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/black.png": "/static/media/black.04cdf981ae038d40210c.png",
     "index.html": "/index.html",
-    "main.7e920038.css.map": "/static/css/main.7e920038.css.map",
-    "main.30f00e07.js.map": "/static/js/main.30f00e07.js.map"
+    "main.72002b16.css.map": "/static/css/main.72002b16.css.map",
+    "main.7f3ea247.js.map": "/static/js/main.7f3ea247.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e920038.css",
-    "static/js/main.30f00e07.js"
+    "static/css/main.72002b16.css",
+    "static/js/main.7f3ea247.js"
   ]
 }
