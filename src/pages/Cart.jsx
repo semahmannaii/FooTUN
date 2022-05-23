@@ -26,7 +26,7 @@ function Cart({ cart }) {
 
     setTimeout(function () {
         navigate('/products')
-    }, 2000)
+    }, 3000)
     
     setTimeout(function () {
       window.location.reload()
