@@ -26,11 +26,11 @@ function Cart({ cart }) {
 
     setTimeout(function () {
         navigate('/products')
-    }, 3000)
+    }, 2000)
     
     setTimeout(function () {
       window.location.reload()
-  }, 5000)
+  }, 4000)
     
   }
 
