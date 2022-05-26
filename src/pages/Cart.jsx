@@ -11,29 +11,6 @@ function Cart({ cart }) {
 
   const navigate = useNavigate()
 
-  const pay = (e) => {
-    e.preventDefault()
-
-    toast.success('Thank You For Your Purchase!', {
-      position: "top-center",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      });
-
-    setTimeout(function () {
-        navigate('/products')
-    }, 3000)
-    
-    setTimeout(function () {
-      window.location.reload()
-  }, 4000)
-    
-  }
-
   useEffect(() => {
     let items = 0
     let price = 0
@@ -47,6 +24,50 @@ function Cart({ cart }) {
     setTotalPrice(price)
 
   }, [cart, totalItems, totalPrice, setTotalItems, setTotalPrice])
+
+  const pay = (e) => {
+    e.preventDefault()
+
+    if (totalItems !== 0 || totalPrice !== 0) {
+      toast.success('Thank You For Your Purchase!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+
+      setTimeout(function () {
+        navigate('/products')
+      }, 3000)
+
+      setTimeout(function () {
+        window.location.reload()
+      }, 4000)
+    } else if (totalItems === 0 || totalPrice === 0) {
+      toast.warn('Your cart is empty!', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    } else {
+      toast.error('Something wrong !', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+    }
+  }
 
   return (
     <div className="container-lg py-4">
