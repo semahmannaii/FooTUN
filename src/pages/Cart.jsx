@@ -31,7 +31,7 @@ function Cart({ cart }) {
     if (totalItems !== 0 || totalPrice !== 0) {
       toast.success('Thank You For Your Purchase!', {
         position: "top-center",
-        autoClose: 5000,
+        autoClose: 1800,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -41,15 +41,15 @@ function Cart({ cart }) {
 
       setTimeout(function () {
         navigate('/products')
-      }, 3000)
+      }, 2000)
 
       setTimeout(function () {
         window.location.reload()
-      }, 4000)
+      }, 2200)
     } else if (totalItems === 0 || totalPrice === 0) {
       toast.warn('Your cart is empty!', {
         position: "top-center",
-        autoClose: 5000,
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
@@ -59,7 +59,7 @@ function Cart({ cart }) {
     } else {
       toast.error('Something wrong !', {
         position: "top-center",
-        autoClose: 5000,
+        autoClose: 2000,
         hideProgressBar: false,
         closeOnClick: true,
         pauseOnHover: true,
