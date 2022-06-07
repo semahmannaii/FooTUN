@@ -5,7 +5,7 @@ function Footer() {
                 <div className="container-lg">
                     <div className="row">
                         <div className="col-lg-12">
-                            <p className="m-0 text-center text-muted">&copy; Semah Mannaii 2022</p>
+                            <p className="m-0 text-center text-muted">&copy; Semah Mannaii</p>
                         </div>
                     </div>
                 </div>
